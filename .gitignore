@@ -1,0 +1,42 @@
+###########################
+# PYTHON & ML
+###########################
+
+venv/
+**/venv/
+__pycache__/
+*.pyc
+
+# ML model weights, checkpoints, datasets (very large)
+**/saved-model/
+**/results/
+**/data/
+
+###########################
+# NODE & FRONTEND
+###########################
+
+node_modules/
+frontend/codeguard-frontend/node_modules/
+frontend/codeguard-frontend/.git/
+
+###########################
+# ARCHIVES
+###########################
+
+*.zip
+*.tar
+*.tar.gz
+
+###########################
+# SYSTEM FILES (macOS)
+###########################
+
+.DS_Store
+**/.DS_Store
+
+###########################
+# ENVIRONMENT VARIABLES
+###########################
+
+.env

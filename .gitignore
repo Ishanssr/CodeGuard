@@ -29,6 +29,16 @@ frontend/codeguard-frontend/.git/
 *.tar.gz
 
 ###########################
+# DATABASE
+###########################
+
+*.sqlite3
+
+# BUILD ARTIFACTS
+###########################
+
+frontend/codeguard-frontend/build/
+
 # SYSTEM FILES (macOS)
 ###########################
 
